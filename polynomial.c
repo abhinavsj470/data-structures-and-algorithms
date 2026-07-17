@@ -1,6 +1,6 @@
-#include<stdio.h>
-
-struct polynomial{
+#include<stdio.h>							//ABHINAV SAJEEV
+									//CSE-C,S3
+struct polynomial{							//Roll No : 5					
  int coeff;
  int expo;
 };
@@ -60,5 +60,6 @@ int main(){
     printf("+"); 
   } 
  }
+ printf("\n");
  return 0;
 }

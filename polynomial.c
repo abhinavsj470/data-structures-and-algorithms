@@ -1,6 +1,6 @@
-#include<stdio.h>							//ABHINAV SAJEEV
-									//CSE-C,S3
-struct polynomial{							//Roll No : 5					
+#include<stdio.h>							
+									        
+struct polynomial{												
  int coeff;
  int expo;
 };

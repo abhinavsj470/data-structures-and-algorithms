@@ -51,6 +51,7 @@ struct Node* deleteNode(struct Node* root, int value) {
            free(root);
            return NULL;
         }
+        
         if (root->left == NULL) {
             struct Node* temp = root->right;
             free(root);
